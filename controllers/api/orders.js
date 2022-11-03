@@ -1,4 +1,4 @@
-const Order = require('../../../mern-infrastructure/models/order');
+const Order = require('../../models/order');
 // const Item = require('../../models/item');
 
 

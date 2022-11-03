@@ -1,4 +1,4 @@
-const Item = require('../../../mern-infrastructure/models/item');
+const Item = require('../../models/item');
 
 module.exports = {
   index,
