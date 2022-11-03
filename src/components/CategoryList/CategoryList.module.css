@@ -3,14 +3,15 @@
     list-style: none;
     padding: 0;
     font-size: 1.7vw;
-    }
-    
-    .CategoryList li {
+}
+
+.CategoryList li {
     padding: .6vmin;
     text-align: center;
     border-radius: .5vmin;
     margin-bottom: .5vmin;
-    }
+    color: black;
+}
     
     .CategoryList li:hover:not(.active) {
     cursor: pointer;
