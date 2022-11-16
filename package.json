@@ -39,9 +39,7 @@
       "last 1 safari version"
     ]
   },
-  
   "devDependencies": {
     "morgan": "^1.10.0"
   }
-
 }
