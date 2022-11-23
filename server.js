@@ -2,15 +2,12 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const morgan = require('morgan');
-// const cors = require(`cors`)
-// const mongoose = require('mongoose');
 // Always require and configure near the top
 require('dotenv').config();
 require('./config/database');
 
 const app = express();
 const port = process.env.PORT || 3001;
-// const db = mongoose.connection;
 
 app.use(morgan('dev'));
 app.use(express.json());
